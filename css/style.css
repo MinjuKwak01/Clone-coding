@@ -1,0 +1,9 @@
+.status-bar{
+    /*세개를 같은 줄에 위치*/
+    display:flex;
+    justify-content: space-between;
+}
+
+.status-bar__column:first-child span{
+    margin-right: 5px;
+}
